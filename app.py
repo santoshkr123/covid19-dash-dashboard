@@ -14,21 +14,7 @@ external_stylesheet = [
         'crossorigin': "anonymous"
     }
 ]
-import numpy as np
-import pandas as pd
-import plotly.graph_objs as go
-import plotly.express as px
-from dash import Dash, dcc, html
-from dash.dependencies import Input, Output
 
-external_stylesheet = [
-    {
-        'href': "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css",
-        'rel': "stylesheet",
-        'integrity': "sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC",
-        'crossorigin': "anonymous"
-    }
-]
 
 patients=pd.read_csv("state_wise_daily data file IHHPET.csv")
 
